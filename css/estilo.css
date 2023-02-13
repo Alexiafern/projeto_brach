@@ -168,7 +168,42 @@ input:checked ~ label #linha:after {
   background-position: center;
   background-attachment: fixed;
 }
-
+.div-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.div-cont-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.conteudo {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.conteudo-2 {
+  width: 35%;
+  margin-bottom: 30px;
+}
+.conteudo-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.conteudo-link {
+  font-size: 1.3em;
+}
+.conteudo-link p {
+  color: #fff;
+}
+.conteudo-link a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
 footer {
   background-color: rgb(13, 13, 13);
   padding: 15px;
