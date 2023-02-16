@@ -159,6 +159,25 @@ input:checked ~ label #linha:after {
   font-size: 1.3em;
   margin-bottom: 50px;
 }
+.fim {
+  background-color: rgb(13, 13, 13);
+  padding: 15px;
+  padding-bottom: 36px;
+}
+.fim h1,
+.fim h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+}
+.fim h1 {
+  font-size: 2.5em;
+  font-family: "Roboto Mono", monospace;
+}
+.fim h3 {
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
 .fundo {
   position: relative;
   height: 100%;
@@ -242,3 +261,7 @@ footer p a {
 p{
   color: #fff;
 }
+
+ .alemao{
+    text-align: center;  
+ }
