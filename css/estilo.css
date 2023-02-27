@@ -145,6 +145,23 @@ input:checked ~ label #linha:after {
   padding: 15px;
   padding-bottom: 36px;
 }
+.topo h1,
+.topo h3 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.fim {
+  background-color: rgb(13, 13, 13);
+  padding: 15px;
+  padding-bottom: 36px;
+}
+.fim h1,
+.fim h3 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+}
 .meio h1,
 .meio h3 {
   text-align: center;
@@ -163,6 +180,15 @@ input:checked ~ label #linha:after {
   position: relative;
   height: 100%;
   background-image: url(fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.background {
+  position: relative;
+  height: 100%;
+  background-image: url(franco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
